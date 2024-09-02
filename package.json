@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "devStart": "nodemon ./backend/server.js"
+    "devStart": "nodemon ./backend/server.js",
+    "chatBot": "nodemon ./backend/chatBot.js"
   },
   "author": "",
   "license": "ISC",
