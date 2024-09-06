@@ -13,7 +13,7 @@ const prompt = async () => {
                 model: "gpt-3.5-turbo",
                 messages: [{
                     role: "user",
-                    content: "What is the capital of new york"
+                    content: "hello there!"
                 }]
             })
         })
@@ -26,3 +26,4 @@ const prompt = async () => {
 }
 
 prompt()
+// export default prompt

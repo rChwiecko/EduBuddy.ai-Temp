@@ -1,4 +1,5 @@
 const express = require('express')
+const prompt = require('./chatBot')
 app = express()
 app.use(express.json());
 app.set('view engine', 'ejs');
@@ -7,3 +8,4 @@ app.get('/', (req, res) => {
 })
 
 app.listen(3000)
+
